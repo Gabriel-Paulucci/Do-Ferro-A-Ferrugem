@@ -61,6 +61,12 @@ fn main() {
 }
 ```
 
+Para executar um projeto em Rust usamos o mesmo gerenciador, usando o comando. 
+
+```sh
+cargo run
+```
+
 E um exemplo bobo, mas como estamos no início so para ter um gostinho de como é a linguagem eu criei um projeto nessa mesma pasta com um exemplo de como fazer o cálculo de Fibonacci.
 
 ```rust
