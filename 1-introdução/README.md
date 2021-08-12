@@ -5,8 +5,8 @@ Olá a todos, venho aqui dar uma introdução sobre a tecnologia Rust e ajudá-l
 ## Rust
 
 Bem rust é uma linguagem criada por Graydon Hoare e em 2009 a Mozilla apoiou o projeto, e foi anunciado em 2010, sendo que a pré-alfa foi lançada em 2012 e a primeira release foi lançada em 2015.
-Então é uma linguagem relarivamente nova, e foi criada com o intuito de ser segura, concorente e pratica.
-Um dos grandes diferenciais é que ao inves de que se encontra em outras linguagens, Rust não utiliza Garbage Collector, ele se utiliza de uma tecnica chamada Ownership para a manipulação da memoria.
+Então é uma linguagem relativamente nova, e foi criada com o intuito de ser segura, concorente e pratica.
+Um dos grandes difrenciais que não se encontra em outras linguagens é que Rust não utiliza Garbage Collector, ele se utiliza de uma tecnica chamada Ownership para a manipulação da memoria.
 
 ## Instalando
 
@@ -28,7 +28,7 @@ Para instalar o Rust é muito simples tanto no linux, Windows e Mac.
 
 ## Editor
 
-Bem rust pode ser escrito aonde preferir, mas o que eu recomento pois tem todas as ferramentas para auxiliar no desenvolvimento, é eu uso no meu dia a dia é o [Visual Studio Code](https://code.visualstudio.com/), abaixo vou listar as extensões que serão de grande ajuda durante o desenvolvimento, mas caso queria usar algum outro editor ou outras extensões sinta-se livre para fazer isso.
+Bem rust pode ser escrito aonde preferir, mas o que eu recomendo pois tem todas as ferramentas para auxiliar no desenvolvimento, o que eu uso no meu dia a dia é o [Visual Studio Code](https://code.visualstudio.com/), abaixo vou listar as extensões que serão de grande ajuda durante o desenvolvimento, mas caso queria usar algum outro editor ou outras extensões sinta-se livre para fazer isso.
 
 [![rust-azalyzer](images/rust-analyzer.png)](https://marketplace.visualstudio.com/items?itemName=matklad.rust-analyzer) [rust-analyzer](https://marketplace.visualstudio.com/items?itemName=matklad.rust-analyzer)
 
@@ -61,13 +61,13 @@ fn main() {
 }
 ```
 
-Para executar um projeto em Rust usamos o mesmo gerenciador, usando o comando. 
+Para executar um projeto em Rust usamos o mesmo gerenciador, usando o comando.
 
 ```sh
 cargo run
 ```
 
-E um exemplo bobo, mas como estamos no início so para ter um gostinho de como é a linguagem eu criei um projeto nessa mesma pasta com um exemplo de como fazer o cálculo de Fibonacci.
+É um exemplo bobo, mas como estamos no início so para ter um gostinho de como é a linguagem eu criei um projeto nessa mesma pasta com um exemplo de como fazer o cálculo de Fibonacci.
 
 ```rust
 fn main() {
